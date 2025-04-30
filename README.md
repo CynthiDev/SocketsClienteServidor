@@ -15,7 +15,9 @@ Un servidor y cliente de chat básico implementado en Python, usando sockets par
 ## Estructura del Proyecto
 
 ```bash
-chat-app/
+SocketsClienteServidor/
+├── data/               # Almacenamiento
+│   └── mensajes.db     # Base de datos SQLite (se crea automáticamente al iniciar el servidor)
 ├── src/
 │   ├── assets/               # Capturas de pantalla/imágenes
 │   │   └── chat_demo.png   # Ejemplo de comunicacion y registro en DDBB
