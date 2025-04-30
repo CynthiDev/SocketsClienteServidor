@@ -41,6 +41,7 @@ class ChatClient:
                 self.client_socket.send(message.encode('utf-8'))
                 
                 if message.lower().strip() == 'éxito':
+                    print("Desconectando del servidor...")
                     break
                 
                 # Esperar respuesta del servidor
