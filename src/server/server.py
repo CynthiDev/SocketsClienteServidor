@@ -23,7 +23,7 @@ class ChatServer:
         try:
             self.servidor_socket.bind((HOST, PORT))
             self.servidor_socket.listen(5)
-            print(f"Servidor escuchando en{HOST}:{PORT}")
+            print(f"Servidor escuchando en: {HOST}:{PORT}")
             
             while True:
                 cliente, direccion = self.servidor_socket.accept()
